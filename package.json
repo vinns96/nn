@@ -1,0 +1,50 @@
+{
+  "name": "hackathon-platform",
+  "private": true,
+  "version": "1.0.0",
+  "homepage": "https://vivekUnified.github.io/hackathon-platform",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist-git",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "jest",
+    "start": "vite"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.0.1",
+    "@fortawesome/free-solid-svg-icons": "^7.0.1",
+    "@fortawesome/react-fontawesome": "^3.0.2",
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/vite": "^4.1.4",
+    "@tanstack/react-query": "^5.89.0",
+    "axios": "^1.12.2",
+    "prop-types": "^15.8.1",
+    "qs": "^6.14.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.5.0",
+    "react-vertical-timeline-component": "^3.5.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/qs": "^6.14.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
+    "globals": "^15.15.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0"
+  }
+}
